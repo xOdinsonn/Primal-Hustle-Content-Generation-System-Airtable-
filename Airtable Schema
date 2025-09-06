@@ -24,6 +24,16 @@
       },
       {
         "type": "multilineText",
+        "id": "fld3wKvgMwTts2vgS",
+        "name": "Brand Slug"
+      },
+      {
+        "type": "multilineText",
+        "id": "fldzgvL8ME653Gqeq",
+        "name": "NAP"
+      },
+      {
+        "type": "multilineText",
         "id": "fldcSZxnmBBrkOISn",
         "name": "Brand Voice Guidelines"
       },
@@ -4483,6 +4493,59 @@
         "type": "button",
         "id": "fldwhP4pZoh4seRdU",
         "name": "Client Review"
+      },
+      {
+        "type": "checkbox",
+        "options": {
+          "icon": "check",
+          "color": "greenBright"
+        },
+        "id": "fldQzjmw0dalZT7lz",
+        "name": "Client Approved"
+      },
+      {
+        "type": "singleSelect",
+        "options": {
+          "choices": [
+            {
+              "id": "selVRIHmIzLX93gbZ",
+              "name": "Queued",
+              "color": "blueLight2"
+            },
+            {
+              "id": "selDPXUrAEFyOoLpQ",
+              "name": "Generating",
+              "color": "cyanLight2"
+            },
+            {
+              "id": "selkRATMoqaD6ZIoc",
+              "name": "Ready",
+              "color": "tealLight2"
+            },
+            {
+              "id": "sel9pdCdmcdiI9AXr",
+              "name": "Error",
+              "color": "redBright"
+            }
+          ]
+        },
+        "id": "fld9LCGTozHDbBTZK",
+        "name": "Image Gen Status"
+      },
+      {
+        "type": "formula",
+        "options": {
+          "isValid": true,
+          "formula": "{fldLlsMu8hlBP6jRJ}",
+          "referencedFieldIds": [
+            "fldLlsMu8hlBP6jRJ"
+          ],
+          "result": {
+            "type": "singleLineText"
+          }
+        },
+        "id": "fldGAu18hRWq6KxTY",
+        "name": "Plan # by Brand"
       }
     ],
     "views": [
@@ -4493,7 +4556,22 @@
       },
       {
         "id": "viwC7IVw8Yb1olVEd",
-        "name": "Automation - Ready",
+        "name": "Image Generation",
+        "type": "grid"
+      },
+      {
+        "id": "viwDkhu0STMw14StO",
+        "name": "Blog Metadata",
+        "type": "grid"
+      },
+      {
+        "id": "viwn7BNc4vOuvLoez",
+        "name": "Posts - 18 Spa",
+        "type": "grid"
+      },
+      {
+        "id": "viwueldD8l2hF5LkV",
+        "name": "Posts - Primal Hustle",
         "type": "grid"
       }
     ]
